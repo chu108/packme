@@ -47,6 +47,14 @@ func (i *Item) Volume() float32 {
 	return i.length * i.width * i.height
 }
 
+func (i *Item) Point() Point {
+	return i.pos
+}
+
+func (i *Item) Rotation() Rotation {
+	return i.rot
+}
+
 func (i *Item) Dimensions() Dimensions {
 	var d Dimensions
 	switch i.rot {

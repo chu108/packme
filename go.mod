@@ -1,4 +1,4 @@
-module github.com/stevenferrer/packme
+module github.com/chu108/packme
 
 go 1.16
 
